@@ -1,0 +1,23 @@
+services:
+  postgres:
+    container_name: postgres-sql-lib
+    image: postgres
+    environment:
+      POSTGRES_USER: username
+      POSTGRES_PASSWORD: password
+      PGDATA: /var/lib/postgresql/data
+      POSTGRES_DB: Library_network
+    volumes:
+      - postgres:/data/postgres
+    ports:
+      - 5433:5432
+    networks:
+      - library-demo
+    restart: always
+
+networks:
+  library-demo:
+
+volumes:
+  postgres:
+    driver: local
