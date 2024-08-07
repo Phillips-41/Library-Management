@@ -1,0 +1,13 @@
+com\example\Library\model\Book.class
+com\example\Library\Repository\PublishRepository.class
+com\example\Library\controllers\AuthorController.class
+com\example\Library\controllers\BookController.class
+com\example\Library\controllers\PublicController.class
+com\example\Library\LibraryApplication.class
+com\example\Library\service\PublishService.class
+com\example\Library\service\AuthorService.class
+com\example\Library\Repository\BookRepository.class
+com\example\Library\model\Publisher.class
+com\example\Library\service\BookService.class
+com\example\Library\model\Author.class
+com\example\Library\Repository\AuthorRepository.class
